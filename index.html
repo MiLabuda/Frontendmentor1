@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Profile card component</title>
 </head>
+
 <body>
-  <section class="card">
-    <div class="card__upper">
-    </div>
-    <div class="card__mid">
-      <span class="card__bold">Victor Crest</span>  26
-      London
-    </div>
-    <div class="card__bottom">
-      <div class="card__section">
-        <span class="card__bold">80K</span> 
-        Followers
-      </div>
-      <div class="card__section">
-        <span class="card__bold">803K</span>
-        Likes
-      </div>
-      <div class="card__section">   
-        <span class="card__bold">1.4K</span>
-        Photos
-      </div>
-    </div>
-  </section>
-
-
-
-  
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container">
+      <section class="card">
+          <div class="card__upper">
+            <div class="card__image"></div>
+          </div>
+          <div class="card__mid">
+              <div class="card__textblock">
+                  <span class="card--bold">Victor Crest</span> <span class="card--uppercase">26</span></br>
+              </div>
+              <div class="card__textblock">
+                London
+              </div>
+          </div>
+          <div class="card__bottom">
+            <div class="card__item">
+              
+              <span class="card--bold">80K</span></br>
+              Followers
+            </div>
+            <div class="card__item">
+              <span class="card--bold">803K</span></br>
+              Likes
+            </div>
+            <div class="card__item">
+              <span class="card--bold">1.4K</span></br>
+              Photos
+            </div>
+          </div>
+        </section>
   </div>
+
+
+
+
+
+
+ <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Michał</a>.
+  </div> -->
 </body>
+
 </html>
