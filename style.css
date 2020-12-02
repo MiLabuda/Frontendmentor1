@@ -25,7 +25,7 @@ html {
 }
 
 body:before {
-    background: url(images/bg-pattern-top.svg);
+    background: url(./images/bg-pattern-top.svg);
     display: block;
     content: "";
     padding:;
@@ -33,7 +33,7 @@ body:before {
 }
 
 .container:after {
-    background: url(images/bg-pattern-top.svg);
+    background: url(./images/bg-pattern-top.svg);
     display: block;
     content: "";
 }
